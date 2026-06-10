@@ -119,4 +119,4 @@ End with: **"Which of these would you like me to draft as a skill file now?"**
 
 ### Step 6 — Optional: save report to memory
 
-If the user agrees, save the report to `~/.claude/projects/-home-mhi-admin--claude/memory/skill-discovery-<YYYY-MM-DD>.md` so future runs can compare against previous findings and track which candidates have been acted on.
+If the user agrees, save the report to `~/.claude/projects/` memory so future runs can compare against previous findings and track which candidates have been acted on.
