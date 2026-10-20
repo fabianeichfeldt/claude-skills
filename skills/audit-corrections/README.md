@@ -17,6 +17,10 @@ npx skills add fabianeichfeldt/claude-skills --skill audit-corrections
 5. Presents new patterns with suggested rule text and the target file to add them to
 6. Optionally writes the rules directly into the appropriate `CLAUDE.md`
 
+## Privacy
+
+Past messages can contain pasted API keys, tokens or passwords. Logs are read only through a collection script that redacts likely secrets and caps excerpts at 200 characters. Findings are paraphrased, never quoted, and suggested `CLAUDE.md` rules never contain secret values.
+
 ## Usage
 
 Run it any time you want to audit what Claude has been getting wrong repeatedly:

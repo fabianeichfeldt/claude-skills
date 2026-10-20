@@ -18,6 +18,10 @@ npx skills add fabianeichfeldt/claude-skills --skill discover-skills
 6. Prints a ranked report of new skill candidates with session counts and project coverage
 7. Optionally drafts the skill file for any candidate you pick
 
+## Privacy
+
+Past messages can contain pasted API keys, tokens or passwords. The collection script redacts likely secrets before printing anything and caps snippets at 200 characters. The report describes patterns in its own words and never quotes your messages.
+
 ## Usage
 
 > "Find automation opportunities in my workflow"
