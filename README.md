@@ -46,7 +46,20 @@ npx skills add fabianeichfeldt/claude-skills --skill discover-skills
 
 ---
 
+### `maintainer-review`
+
+Reviews a branch, diff, GitLab MR or GitHub PR as the repository's maintainer: is it the minimal change for the business goal, does it leave the codebase cleaner, keep dependencies straight, test what it changes, and stay secure? A dedicated security agent checks every new endpoint and scans for open vectors against the OWASP Top 10, the OWASP API Security Top 10 and, when MCP servers are involved, the OWASP MCP Top 10. On request, it posts the findings you pick as draft comments, using `glab` or `gh` depending on the forge.
+
+```sh
+npx skills add fabianeichfeldt/claude-skills --skill maintainer-review
+```
+
+**Trigger phrases:** "review this MR/PR", "is this change minimal?", "is this secure?", "make it surgical"
+
+---
+
 ## Requirements
 
 - [Claude Code](https://claude.ai/code) CLI
 - Node.js (for `npx skills`)
+- `glab` or `gh` (only for `maintainer-review` to post comments)
